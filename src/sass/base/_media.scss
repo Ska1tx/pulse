@@ -1,0 +1,36 @@
+@media (max-width: 1200px){
+    .promo{
+        background-position-x: -300px;
+    
+        }
+    }
+@media (max-width: 991px){
+    .promo{
+        background-position-x: -300px;
+        &_wrapper{
+            margin-right: 25px;
+            
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .promo{
+        background-position-x: -380px;
+        &_wrapper{
+            margin-right: 25px;
+            
+        }
+    }
+    .advantages{
+        &__icons{
+            flex-direction: column;
+             
+        }
+        &__icon{
+            &__dscrp{
+                margin-top: 38px;
+            }
+        }
+    }
+}
